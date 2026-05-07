@@ -1,40 +1,37 @@
-# 🌵 Mateus Rocha
+# 🎲 Mateus Rocha
 
-```txt
-📍 Campina Grande, PB
-⚙️ desenvolvedor em construção
-☀️ sobrevivendo ao calor e aos bugs
+```yaml
+Classe: Desenvolvedor
+Especialização: Backend
+Região: Campina Grande, PB
+Guilda: UFCG
+Nível: em evolução
+Mana: Cuscuz 🌽
 ```
 
 ---
 
-## 🧭 jornada atual
+## ⚔️ habilidades
 
-- explorando Java e backend
-- criando sistemas próprios
-- aprendendo desenvolvimento web
-- tentando domar o Git sem invocar entidades antigas
-
----
-
-## 🐎 inventário
-
-- Java
-- JavaScript
-- HTML/CSS
-- Git
-- café
-- persistência
+- Java ⚔️⚔️⚔️⚔️☆
+- Python ⚔️⚔️⚔️☆☆
+- HTML/CSS ⚔️⚔️⚔️☆☆
+- Git ⚔️⚔️☆☆☆
 
 ---
 
-## 📜 missões
+## 🧭 quests atuais
 
-☐ terminar novos projetos  
-☐ contribuir em open source  
-☐ sobreviver ao próximo semestre  
-☑ começar a construir algo grande
+🗺️ construir projetos úteis  
+🗺️ aprender arquitetura de software  
+🗺️ evoluir como programador
 
 ---
 
-> "na caatinga, até o código aprende a resistir."
+## 🧰 inventário
+
+```diff
++ vscode
++ determinação
+- sanidade
+```
