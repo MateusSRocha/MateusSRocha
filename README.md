@@ -1,4 +1,4 @@
-# 🎲 Mateus Rocha
+# 🎲 Opa, eu me chamo Mateus!
 
 ```yaml
 Classe: Desenvolvedor
@@ -13,9 +13,9 @@ Mana: Cuscuz 🌽
 
 ## ⚔️ habilidades
 
-- Java ⚔️⚔️⚔️⚔️☆
-- Python ⚔️⚔️⚔️☆☆
-- HTML/CSS ⚔️⚔️⚔️☆☆
+- Java ⚔️⚔️☆☆☆
+- Python ⚔️⚔️⚔️⚔️☆
+- HTML/CSS ⚔️⚔️⚔️⚔️☆
 - Git ⚔️⚔️☆☆☆
 
 ---
@@ -25,6 +25,7 @@ Mana: Cuscuz 🌽
 🗺️ construir projetos úteis  
 🗺️ aprender arquitetura de software  
 🗺️ evoluir como programador
+🗺️ Sobreviver a Campanha Semestral
 
 ---
 
