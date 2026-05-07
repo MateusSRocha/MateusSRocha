@@ -1,75 +1,45 @@
-# < Hello, World! 👋 />
+```txt
+Mateus Rocha
+Campina Grande, PB
+building things with code
+```
+
+---
+
+### atualmente
+
+- aprendendo mais sobre backend e desenvolvimento web
+- transformando ideias aleatórias em projetos
+- tentando escrever código melhor do que ontem
+
+---
+
+### interesses
 
 ```java
-public class MateusRocha {
-
-    String formacao = "Técnico em Informática - IFPB";
-    String foco = "Backend & Desenvolvimento Web";
-
-    String[] tecnologias = {
-        "Java",
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "Git"
-    };
-
-    public void aprenderAlgoNovo() {
-        System.out.println("Transformando café em código...");
-    }
-}
+["Java", "sistemas", "web", "lógica", "UI", "open source"]
 ```
 
 ---
 
-## 🧠 Sobre mim
+### projetos
 
-Sou estudante e desenvolvedor em formação, apaixonado por tecnologia e por transformar ideias em projetos reais.
-
-Atualmente focado em:
-- desenvolvimento backend
-- lógica de programação
-- estruturas de dados
-- aplicações web
-- projetos em Java
+🗂️ agenda de estudos  
+🎮 jogos simples em Java  
+⚙️ experimentos e sistemas pessoais
 
 ---
 
-## ⚒️ Construindo
+### filosofia
 
-🚧 Sistema de agenda para estudos  
-🎮 Jogos simples em Java  
-🌐 Projetos web  
-📚 Evoluindo diariamente como desenvolvedor
+> software bom resolve problemas sem complicar a vida.
 
 ---
 
-## 📊 GitHub Stats
+### github
 
-![stats](https://github-readme-stats.vercel.app/api?username=SEUUSUARIO&show_icons=true&theme=tokyonight&hide_border=true)
+<div align="left">
 
-![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SEUUSUARIO&layout=compact&theme=tokyonight&hide_border=true)
+<img height="160em" src="https://github-readme-stats.vercel.app/api?username=SEUUSUARIO&show_icons=true&theme=transparent&hide_border=true"/>
 
----
-
-## 💻 Filosofia
-
-```text
-Aprender programação não é decorar código.
-É aprender a resolver problemas.
-```
-
----
-
-## 🌌 Atualmente
-
-- 📚 Estudando Java e desenvolvimento web
-- 🛠️ Criando projetos próprios
-- 🚀 Buscando evoluir um pouco todos os dias
-
----
-
-## 📫 Contato
-
-📎 LinkedIn: SEU LINK  
-📧 Email: SEU EMAIL
+</div>
