@@ -30,5 +30,5 @@ Para um número $n$ composto, a probabilidade $n$ ser taxado erroneamente como p
 
 Se $n$ é um número primo com relação a base $a$ (testemunha), então:
 - $a^d \equiv 1 \pmod{n}$
-ou $\exists r | 0 \le r < s$, tal que
+ou $\exists r  \in ℤ | 0 \le r < s$, tal que
 - $a^{2^r \cdot d} \equiv -1 \pmod{n}$
