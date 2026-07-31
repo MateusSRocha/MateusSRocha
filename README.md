@@ -26,3 +26,9 @@ Para um número $n$ composto, a probabilidade $n$ ser taxado erroneamente como p
 
 - Para $k$ rodadas de teste: $$P(\text{erro}) \le \left(\frac{1}{4}\right)^k$$
 
+## 🧮 Fundamentação Algébrica
+
+Se $n$ é um número primo com relação a base $a$ (testemunha), então:
+- $a^d \equiv 1 \pmod{n}$
+ou $\exists r | 0 \le r < s$, tal que
+- $a^{2^r \cdot d} \equiv -1 \pmod{n}$
