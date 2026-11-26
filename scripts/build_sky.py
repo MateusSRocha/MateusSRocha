@@ -38,8 +38,14 @@ CORES = [
     "#1864ab",  # azul escuro
 ]
 
-
-# ---------------------------------------------------------------- coleta
+REPOSITORIOS_EXTERNOS = [
+    "Loja-de-Geam/phpstore",
+    "Projects-M-G-N/repositories",
+    "Projects-M-G-N/projetoPNLD",
+    "thallesgsrv/Big-O-Library",
+    "Projects-M-G-N/Automind",
+    "Projects-M-G-N/ProjetoAutopecas",
+]
 
 def chamar_api(caminho):
     pedido = urllib.request.Request(f"https://api.github.com{caminho}")
@@ -58,29 +64,71 @@ def tipo_do_commit(mensagem):
     return "outro"
 
 
+
 def coletar():
-    """Devolve {nome_do_repo: [(data_iso, tipo), ...]} em ordem cronológica."""
-    repos = chamar_api(f"/users/{USUARIO}/repos?per_page=100&type=owner")
+    """Busca commits do usuário nos próprios repositórios e nos externos indicados."""
     resultado = {}
-    for repo in repos:
-        if repo["fork"]:
-            continue
-        nome = repo["name"]
-        if nome == USUARIO:
-            continue
+    repositorios_processados = set()
+
+    def coletar_commits(proprietario, nome, chave):
+        identificador = f"{proprietario}/{nome}"
+
+        # Evita consultar o mesmo repositório duas vezes.
+        if identificador in repositorios_processados:
+            return
+
+        repositorios_processados.add(identificador)
+
         commits = chamar_api(
-            f"/repos/{USUARIO}/{nome}/commits"
+            f"/repos/{proprietario}/{nome}/commits"
             f"?author={USUARIO}&per_page={MAX_COMMITS_POR_REPO}"
         )
+
         estrelas = []
+
         for item in commits:
             data = item["commit"]["author"]["date"]
             tipo = tipo_do_commit(item["commit"]["message"])
             estrelas.append((data, tipo))
+
         if estrelas:
             estrelas.reverse()
-            resultado[nome] = estrelas
+            resultado[chave] = estrelas
+
+    # 1. Busca os repositórios próprios.
+    repos = chamar_api(
+        f"/users/{USUARIO}/repos?per_page=100&type=owner"
+    )
+
+    for repo in repos:
+        if repo["fork"]:
+            continue
+
+        nome = repo["name"]
+
+        if nome == USUARIO:
+            continue
+
+        coletar_commits(USUARIO, nome, nome)
+
+    # 2. Busca os repositórios externos selecionados.
+    for repositorio in REPOSITORIOS_EXTERNOS:
+        partes = repositorio.strip().split("/")
+
+        if len(partes) != 2 or not all(partes):
+            print(f"Repositório inválido: {repositorio}")
+            continue
+
+        proprietario, nome = partes
+
+        coletar_commits(
+            proprietario,
+            nome,
+            f"{proprietario}/{nome}"
+        )
+
     return resultado
+
 
 
 def dados_demo():
