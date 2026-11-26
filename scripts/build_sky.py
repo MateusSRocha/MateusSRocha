@@ -33,13 +33,9 @@ MAX_COMMITS_POR_REPO = 24
 PADRAO = re.compile(r"^(feat|fix|docs|style|refactor|test|build|chore)(\([^)]*\))?!?:")
 
 CORES = [
-    "#ff6b6b",
-    "#74c0fc",
-    "#b197fc",
-    "#69db7c",
-    "#ffa94d",
-    "#adb5bd",
-    "#f1f3f5",
+    "#4dabf7",  # azul claro
+    "#228be6",  # azul médio
+    "#1864ab",  # azul escuro
 ]
 
 
@@ -140,7 +136,6 @@ def distribuir_centros(nomes):
 
 
 def posicoes_da_constelacao(nome, quantidade, centro):
-    """Passeio aleatório (mas sempre igual para o mesmo nome) em volta do centro."""
     sorteio = random.Random(semente(nome) + 1)
     x, y = centro
     angulo = sorteio.uniform(0, math.tau)
@@ -148,12 +143,11 @@ def posicoes_da_constelacao(nome, quantidade, centro):
     for _ in range(quantidade):
         pontos.append((x, y))
         angulo += sorteio.uniform(-1.1, 1.1)
-        passo = sorteio.uniform(22, 40)
+        passo = sorteio.uniform(32, 56)
         x += math.cos(angulo) * passo
         y += math.sin(angulo) * passo
-        # puxa de volta para o centro para a constelação não fugir
-        x += (centro[0] - x) * 0.18
-        y += (centro[1] - y) * 0.18
+        x += (centro[0] - x) * 0.10
+        y += (centro[1] - y) * 0.10
         x = min(max(x, 50), LARGURA - 50)
         y = min(max(y, 120), HORIZONTE - 40)
     return pontos
