@@ -40,7 +40,6 @@ CORES = [
 
 REPOSITORIOS_EXTERNOS = [
     "Loja-de-Geam/phpstore",
-    "Projects-M-G-N/repositories",
     "Projects-M-G-N/projetoPNLD",
     "thallesgsrv/Big-O-Library",
     "Projects-M-G-N/Automind",
