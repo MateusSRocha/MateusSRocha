@@ -1,0 +1,32 @@
+name: Atualizar o céu
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # todo dia, 06:00 UTC
+  workflow_dispatch:      # botão manual na aba Actions
+  push:
+    paths: ["scripts/build_sky.py"]
+
+permissions:
+  contents: write
+
+jobs:
+  ceu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Gerar o céu
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: python scripts/build_sky.py
+      - name: Commitar se mudou
+        run: |
+          git config user.name "sky-bot"
+          git config user.email "sky-bot@users.noreply.github.com"
+          git add assets/sky.svg
+          git diff --cached --quiet || git commit -m "chore(sky): atualiza o céu"
+          git push
