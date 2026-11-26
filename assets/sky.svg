@@ -174,47 +174,47 @@
 <g opacity="0.92"><circle cx="1090" cy="90" r="26" fill="#f4f1de"/><circle cx="1102" cy="84" r="24" fill="#0c1430"/></g>
 <polyline points="473.8,297.5 455.9,328.4 423.0,328.1 409.3,298.1 399.5,273.2 382.7,281.7 372.3,262.0 369.4,239.5 350.9,243.2 340.9,249.3 328.5,267.6 321.7,278.0 322.1,296.6 315.5,298.3 307.9,299.6 313.7,272.2 332.6,248.3 329.8,240.8 319.0,251.5 316.2,246.9 308.8,256.5 304.8,248.0 324.8,227.3 346.6,208.4" fill="none" stroke="#9db4ff" stroke-opacity="0.22" stroke-width="0.8"/>
 <circle cx="473.8" cy="297.5" r="4.8" fill="#228be6" opacity="0.10"/><circle class="p" cx="473.8" cy="297.5" r="1.60" fill="#228be6" style="animation-delay:-1.4s"/>
-<circle cx="455.9" cy="328.4" r="4.8" fill="#228be6" opacity="0.10"/><circle class="q" cx="455.9" cy="328.4" r="1.60" fill="#228be6" style="animation-delay:-3.5s"/>
+<circle cx="455.9" cy="328.4" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="q" cx="455.9" cy="328.4" r="1.60" fill="#4dabf7" style="animation-delay:-3.5s"/>
 <circle cx="423.0" cy="328.1" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="p" cx="423.0" cy="328.1" r="1.60" fill="#4dabf7" style="animation-delay:-0.4s"/>
-<circle cx="409.3" cy="298.1" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="q" cx="409.3" cy="298.1" r="1.60" fill="#4dabf7" style="animation-delay:-1.7s"/>
-<circle cx="399.5" cy="273.2" r="4.8" fill="#1864ab" opacity="0.10"/><circle class="p" cx="399.5" cy="273.2" r="1.60" fill="#1864ab" style="animation-delay:-0.3s"/>
-<circle cx="382.7" cy="281.7" r="4.8" fill="#1864ab" opacity="0.10"/><circle class="q" cx="382.7" cy="281.7" r="1.60" fill="#1864ab" style="animation-delay:-2.0s"/>
+<circle cx="409.3" cy="298.1" r="4.8" fill="#228be6" opacity="0.10"/><circle class="q" cx="409.3" cy="298.1" r="1.60" fill="#228be6" style="animation-delay:-1.7s"/>
+<circle cx="399.5" cy="273.2" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="p" cx="399.5" cy="273.2" r="1.60" fill="#4dabf7" style="animation-delay:-0.3s"/>
+<circle cx="382.7" cy="281.7" r="4.8" fill="#228be6" opacity="0.10"/><circle class="q" cx="382.7" cy="281.7" r="1.60" fill="#228be6" style="animation-delay:-2.0s"/>
 <circle cx="372.3" cy="262.0" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="p" cx="372.3" cy="262.0" r="1.60" fill="#4dabf7" style="animation-delay:-0.5s"/>
-<circle cx="369.4" cy="239.5" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="q" cx="369.4" cy="239.5" r="1.60" fill="#4dabf7" style="animation-delay:-3.5s"/>
+<circle cx="369.4" cy="239.5" r="4.8" fill="#228be6" opacity="0.10"/><circle class="q" cx="369.4" cy="239.5" r="1.60" fill="#228be6" style="animation-delay:-3.5s"/>
 <circle cx="350.9" cy="243.2" r="4.8" fill="#228be6" opacity="0.10"/><circle class="p" cx="350.9" cy="243.2" r="1.60" fill="#228be6" style="animation-delay:-2.2s"/>
-<circle cx="340.9" cy="249.3" r="4.8" fill="#1864ab" opacity="0.10"/><circle class="q" cx="340.9" cy="249.3" r="1.60" fill="#1864ab" style="animation-delay:-0.6s"/>
-<circle cx="328.5" cy="267.6" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="p" cx="328.5" cy="267.6" r="1.60" fill="#4dabf7" style="animation-delay:-3.8s"/>
+<circle cx="340.9" cy="249.3" r="4.8" fill="#228be6" opacity="0.10"/><circle class="q" cx="340.9" cy="249.3" r="1.60" fill="#228be6" style="animation-delay:-0.6s"/>
+<circle cx="328.5" cy="267.6" r="4.8" fill="#1864ab" opacity="0.10"/><circle class="p" cx="328.5" cy="267.6" r="1.60" fill="#1864ab" style="animation-delay:-3.8s"/>
 <circle cx="321.7" cy="278.0" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="q" cx="321.7" cy="278.0" r="1.60" fill="#4dabf7" style="animation-delay:-1.3s"/>
 <circle cx="322.1" cy="296.6" r="4.8" fill="#228be6" opacity="0.10"/><circle class="p" cx="322.1" cy="296.6" r="1.60" fill="#228be6" style="animation-delay:-0.1s"/>
-<circle cx="315.5" cy="298.3" r="4.8" fill="#228be6" opacity="0.10"/><circle class="q" cx="315.5" cy="298.3" r="1.60" fill="#228be6" style="animation-delay:-1.0s"/>
-<circle cx="307.9" cy="299.6" r="4.8" fill="#1864ab" opacity="0.10"/><circle class="p" cx="307.9" cy="299.6" r="1.60" fill="#1864ab" style="animation-delay:-0.7s"/>
-<circle cx="313.7" cy="272.2" r="4.8" fill="#1864ab" opacity="0.10"/><circle class="q" cx="313.7" cy="272.2" r="1.60" fill="#1864ab" style="animation-delay:-2.0s"/>
-<circle cx="332.6" cy="248.3" r="4.8" fill="#228be6" opacity="0.10"/><circle class="p" cx="332.6" cy="248.3" r="1.60" fill="#228be6" style="animation-delay:-2.0s"/>
-<circle cx="329.8" cy="240.8" r="4.8" fill="#1864ab" opacity="0.10"/><circle class="q" cx="329.8" cy="240.8" r="1.60" fill="#1864ab" style="animation-delay:-3.6s"/>
-<circle cx="319.0" cy="251.5" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="p" cx="319.0" cy="251.5" r="1.60" fill="#4dabf7" style="animation-delay:-1.8s"/>
-<circle cx="316.2" cy="246.9" r="4.8" fill="#1864ab" opacity="0.10"/><circle class="q" cx="316.2" cy="246.9" r="1.60" fill="#1864ab" style="animation-delay:-1.2s"/>
-<circle cx="308.8" cy="256.5" r="4.8" fill="#228be6" opacity="0.10"/><circle class="p" cx="308.8" cy="256.5" r="1.60" fill="#228be6" style="animation-delay:-3.3s"/>
-<circle cx="304.8" cy="248.0" r="10.0" fill="#4dabf7" opacity="0.10"/><circle class="q" cx="304.8" cy="248.0" r="3.33" fill="#4dabf7" style="animation-delay:-2.6s"/>
+<circle cx="315.5" cy="298.3" r="4.8" fill="#1864ab" opacity="0.10"/><circle class="q" cx="315.5" cy="298.3" r="1.60" fill="#1864ab" style="animation-delay:-1.0s"/>
+<circle cx="307.9" cy="299.6" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="p" cx="307.9" cy="299.6" r="1.60" fill="#4dabf7" style="animation-delay:-0.7s"/>
+<circle cx="313.7" cy="272.2" r="4.8" fill="#228be6" opacity="0.10"/><circle class="q" cx="313.7" cy="272.2" r="1.60" fill="#228be6" style="animation-delay:-2.0s"/>
+<circle cx="332.6" cy="248.3" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="p" cx="332.6" cy="248.3" r="1.60" fill="#4dabf7" style="animation-delay:-2.0s"/>
+<circle cx="329.8" cy="240.8" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="q" cx="329.8" cy="240.8" r="1.60" fill="#4dabf7" style="animation-delay:-3.6s"/>
+<circle cx="319.0" cy="251.5" r="4.8" fill="#1864ab" opacity="0.10"/><circle class="p" cx="319.0" cy="251.5" r="1.60" fill="#1864ab" style="animation-delay:-1.8s"/>
+<circle cx="316.2" cy="246.9" r="4.8" fill="#228be6" opacity="0.10"/><circle class="q" cx="316.2" cy="246.9" r="1.60" fill="#228be6" style="animation-delay:-1.2s"/>
+<circle cx="308.8" cy="256.5" r="4.8" fill="#1864ab" opacity="0.10"/><circle class="p" cx="308.8" cy="256.5" r="1.60" fill="#1864ab" style="animation-delay:-3.3s"/>
+<circle cx="304.8" cy="248.0" r="10.0" fill="#228be6" opacity="0.10"/><circle class="q" cx="304.8" cy="248.0" r="3.33" fill="#228be6" style="animation-delay:-2.6s"/>
 <circle cx="324.8" cy="227.3" r="10.0" fill="#1864ab" opacity="0.10"/><circle class="p" cx="324.8" cy="227.3" r="3.33" fill="#1864ab" style="animation-delay:-1.8s"/>
-<circle cx="346.6" cy="208.4" r="10.0" fill="#228be6" opacity="0.10"/><circle class="q" cx="346.6" cy="208.4" r="3.33" fill="#228be6" style="animation-delay:-3.3s"/>
+<circle cx="346.6" cy="208.4" r="10.0" fill="#4dabf7" opacity="0.10"/><circle class="q" cx="346.6" cy="208.4" r="3.33" fill="#4dabf7" style="animation-delay:-3.3s"/>
 <text x="474" y="194" fill="#cfd8ff" font-size="11" text-anchor="middle" opacity="0.8">EmpregaMais</text>
 <polyline points="925.0,201.4 895.1,183.5 887.2,160.7 871.8,145.8" fill="none" stroke="#9db4ff" stroke-opacity="0.22" stroke-width="0.8"/>
-<circle cx="925.0" cy="201.4" r="11.4" fill="#228be6" opacity="0.10"/><circle class="p" cx="925.0" cy="201.4" r="3.80" fill="#228be6" style="animation-delay:-1.9s"/>
-<circle cx="895.1" cy="183.5" r="11.4" fill="#228be6" opacity="0.10"/><circle class="q" cx="895.1" cy="183.5" r="3.80" fill="#228be6" style="animation-delay:-3.3s"/>
-<circle cx="887.2" cy="160.7" r="11.4" fill="#228be6" opacity="0.10"/><circle class="p" cx="887.2" cy="160.7" r="3.80" fill="#228be6" style="animation-delay:-0.0s"/>
+<circle cx="925.0" cy="201.4" r="11.4" fill="#4dabf7" opacity="0.10"/><circle class="p" cx="925.0" cy="201.4" r="3.80" fill="#4dabf7" style="animation-delay:-1.9s"/>
+<circle cx="895.1" cy="183.5" r="11.4" fill="#1864ab" opacity="0.10"/><circle class="q" cx="895.1" cy="183.5" r="3.80" fill="#1864ab" style="animation-delay:-3.3s"/>
+<circle cx="887.2" cy="160.7" r="11.4" fill="#4dabf7" opacity="0.10"/><circle class="p" cx="887.2" cy="160.7" r="3.80" fill="#4dabf7" style="animation-delay:-0.0s"/>
 <circle cx="871.8" cy="145.8" r="11.4" fill="#228be6" opacity="0.10"/><circle class="q" cx="871.8" cy="145.8" r="3.80" fill="#228be6" style="animation-delay:-1.9s"/>
 <text x="925" y="132" fill="#cfd8ff" font-size="11" text-anchor="middle" opacity="0.8">ponto-a</text>
 <polyline points="172.5,171.7 194.9,152.7 223.9,144.1 244.9,151.2 264.0,154.2 271.4,181.5 272.7,207.0 288.0,203.7 295.9,213.0 277.0,235.5" fill="none" stroke="#9db4ff" stroke-opacity="0.22" stroke-width="0.8"/>
-<circle cx="172.5" cy="171.7" r="4.8" fill="#228be6" opacity="0.10"/><circle class="p" cx="172.5" cy="171.7" r="1.60" fill="#228be6" style="animation-delay:-0.2s"/>
-<circle cx="194.9" cy="152.7" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="q" cx="194.9" cy="152.7" r="1.60" fill="#4dabf7" style="animation-delay:-2.0s"/>
+<circle cx="172.5" cy="171.7" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="p" cx="172.5" cy="171.7" r="1.60" fill="#4dabf7" style="animation-delay:-0.2s"/>
+<circle cx="194.9" cy="152.7" r="4.8" fill="#1864ab" opacity="0.10"/><circle class="q" cx="194.9" cy="152.7" r="1.60" fill="#1864ab" style="animation-delay:-2.0s"/>
 <circle cx="223.9" cy="144.1" r="4.8" fill="#228be6" opacity="0.10"/><circle class="p" cx="223.9" cy="144.1" r="1.60" fill="#228be6" style="animation-delay:-1.7s"/>
 <circle cx="244.9" cy="151.2" r="4.8" fill="#1864ab" opacity="0.10"/><circle class="q" cx="244.9" cy="151.2" r="1.60" fill="#1864ab" style="animation-delay:-0.3s"/>
-<circle cx="264.0" cy="154.2" r="4.8" fill="#228be6" opacity="0.10"/><circle class="p" cx="264.0" cy="154.2" r="1.60" fill="#228be6" style="animation-delay:-0.3s"/>
+<circle cx="264.0" cy="154.2" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="p" cx="264.0" cy="154.2" r="1.60" fill="#4dabf7" style="animation-delay:-0.3s"/>
 <circle cx="271.4" cy="181.5" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="q" cx="271.4" cy="181.5" r="1.60" fill="#4dabf7" style="animation-delay:-0.5s"/>
 <circle cx="272.7" cy="207.0" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="p" cx="272.7" cy="207.0" r="1.60" fill="#4dabf7" style="animation-delay:-3.2s"/>
-<circle cx="288.0" cy="203.7" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="q" cx="288.0" cy="203.7" r="1.60" fill="#4dabf7" style="animation-delay:-3.5s"/>
-<circle cx="295.9" cy="213.0" r="4.8" fill="#228be6" opacity="0.10"/><circle class="p" cx="295.9" cy="213.0" r="1.60" fill="#228be6" style="animation-delay:-2.2s"/>
-<circle cx="277.0" cy="235.5" r="4.8" fill="#228be6" opacity="0.10"/><circle class="q" cx="277.0" cy="235.5" r="1.60" fill="#228be6" style="animation-delay:-3.0s"/>
+<circle cx="288.0" cy="203.7" r="4.8" fill="#1864ab" opacity="0.10"/><circle class="q" cx="288.0" cy="203.7" r="1.60" fill="#1864ab" style="animation-delay:-3.5s"/>
+<circle cx="295.9" cy="213.0" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="p" cx="295.9" cy="213.0" r="1.60" fill="#4dabf7" style="animation-delay:-2.2s"/>
+<circle cx="277.0" cy="235.5" r="4.8" fill="#4dabf7" opacity="0.10"/><circle class="q" cx="277.0" cy="235.5" r="1.60" fill="#4dabf7" style="animation-delay:-3.0s"/>
 <text x="172" y="130" fill="#cfd8ff" font-size="11" text-anchor="middle" opacity="0.8">projeto-login</text>
 <g class="cometa"><line x1="900" y1="60" x2="940" y2="40" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity="0.9"/></g>
 <path d="M0,520 V454 C150,432 260,450 380,442 S640,426 760,444 S1040,448 1200,436 V520 Z" fill="#04060d"/>
