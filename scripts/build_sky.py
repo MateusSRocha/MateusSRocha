@@ -143,11 +143,11 @@ def posicoes_da_constelacao(nome, quantidade, centro):
     for _ in range(quantidade):
         pontos.append((x, y))
         angulo += sorteio.uniform(-1.1, 1.1)
-        passo = sorteio.uniform(32, 56)
+        passo = sorteio.uniform(32, 44)
         x += math.cos(angulo) * passo
         y += math.sin(angulo) * passo
-        x += (centro[0] - x) * 0.10
-        y += (centro[1] - y) * 0.10
+        x += (centro[0] - x) * 0.15
+        y += (centro[1] - y) * 0.15
         x = min(max(x, 50), LARGURA - 50)
         y = min(max(y, 120), HORIZONTE - 40)
     return pontos
