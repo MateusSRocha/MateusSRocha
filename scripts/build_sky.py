@@ -273,8 +273,12 @@ def construir_svg(repos, demo):
     # título
     hoje = datetime.now(timezone.utc).strftime("%d/%m/%Y")
     rotulo = "dados de demonstração" if demo else f"atualizado em {hoje}"
-    partes.append(f'<text x="40" y="76" fill="#aab6e8" font-size="13">' f"{total_estrelas} commits · {len(nomes)} constelações · {rotulo}</text>"
+    partes.append(
+    f'<text x="40" y="76" fill="#aab6e8" font-size="13">'
+    f"{total_estrelas} commits · {len(nomes)} constelações · {rotulo}</text>"
     )
+
+    partes.append("</svg>")
 
     return "\n".join(partes)
 
